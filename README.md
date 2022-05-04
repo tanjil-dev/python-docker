@@ -36,6 +36,10 @@ docker volume create mysql
 docker volume create mysql_config
 docker network create mysqlnet
 ```
+### stop mysql service
+```
+sudo service mysql stop
+```
 
 ### docker compose
 ```
